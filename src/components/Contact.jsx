@@ -25,7 +25,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="relative px-6 md:px-10 py-24 md:py-32">
+    <section id="contact" className="relative px-6 md:px-10 pt-24 pb-14 md:pt-32 md:pb-16">
       <div className="max-w-[1400px] mx-auto">
         <Reveal>
           <div className="text-center max-w-[760px] mx-auto">
@@ -130,7 +130,7 @@ export default function Contact() {
           </Reveal>
         </div>
 
-        <footer className="mt-24 pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
+        <footer className="mt-14 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-['Playfair_Display'] text-lg">
             Jatin<span className="text-[#c9a96e]">.</span> Agarwal
           </div>
