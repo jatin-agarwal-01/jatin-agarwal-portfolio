@@ -1,5 +1,6 @@
 import { Linkedin, Github, Code2, MapPin } from 'lucide-react';
 import Reveal from './Reveal';
+import profileImage from '../../profile.jpg';
 
 const principles = [
   { n: '01', title: 'Clear structure over unnecessary complexity', desc: 'Software that is maintainable from the start rather than repaired later.' },
@@ -22,7 +23,7 @@ export default function About() {
             <div className="relative rounded-2xl p-2 border border-[#c9a96e]/30 bg-gradient-to-br from-[#c9a96e]/20 to-transparent">
               <div className="rounded-xl overflow-hidden aspect-[4/5] bg-[#111114] relative">
                 <img
-                  src="https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+                  src={profileImage}
                   alt="Jatin Agarwal portrait"
                   loading="lazy"
                   className="w-full h-full object-cover opacity-80"

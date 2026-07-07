@@ -2,12 +2,18 @@ import { Award, Calendar } from 'lucide-react';
 import Reveal from './Reveal';
 
 const certs = [
-  { title: 'AWS Certified', issuer: 'Amazon Web Services', date: '2026' },
-  { title: 'Flutter Development', issuer: 'Online Program', date: '2026' },
-  { title: 'React Advanced', issuer: 'Online Program', date: '2026' },
-  { title: 'Cloud Fundamentals', issuer: 'AWS / Red Hat', date: '2026' },
-  { title: 'Problem Solving', issuer: 'DSA & Algorithms', date: '2026' },
-  { title: 'AI/ML Foundations', issuer: 'Cognio Labs', date: '2026' },
+  { title: 'AWS Certified Cloud Practitioner', issuer: 'Amazon Web Services', date: '2026' },
+  { title: 'AWS Certified Data Engineer - Associate', issuer: 'Amazon Web Services', date: '2026' },
+  { title: 'Dart Programming', issuer: 'Training Program', date: '2026' },
+  { title: 'DATAVERSE', issuer: 'Training Program', date: '2026' },
+  { title: 'ECMAScript ES6 JavaScript Tutorials', issuer: 'Training Program', date: '2026' },
+  { title: 'Introduction to Entity Relationship ER Modeling', issuer: 'Training Program', date: '2026' },
+  { title: 'Introduction to NoSQL databases', issuer: 'Training Program', date: '2026' },
+  { title: 'Learning Django Web Development', issuer: 'Training Program', date: '2026' },
+  { title: 'Learning Flask', issuer: 'Training Program', date: '2026' },
+  { title: 'Networking Essentials', issuer: 'Cisco Networking Academy', date: '2026' },
+  { title: 'RealWorld Projects with Flutter', issuer: 'Training Program', date: '2026' },
+  { title: 'RED HAT', issuer: 'Red Hat', date: '2026' },
 ];
 
 export default function Certificates() {
