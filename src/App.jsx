@@ -33,11 +33,11 @@ export default function App() {
         <Nav />
         <main>
           <Hero />
+          <About />
           <CaseStudies />
           <Process />
           <Outcomes />
           <Logos />
-          <About />
           <Services />
           <Certificates />
           <Experience />

@@ -3,18 +3,18 @@ import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
 const desktopLinks = [
+  { label: 'About', id: 'about' },
   { label: 'Work', id: 'work' },
   { label: 'Process', id: 'process' },
-  { label: 'About', id: 'about' },
   { label: 'Services', id: 'services' },
   { label: 'Contact', id: 'contact' },
 ];
 
 const mobileLinks = [
+  { label: 'About', id: 'about' },
   { label: 'Work', id: 'work' },
   { label: 'Process', id: 'process' },
   { label: 'Outcomes', id: 'outcomes' },
-  { label: 'About', id: 'about' },
   { label: 'Services', id: 'services' },
   { label: 'Certificates', id: 'certificates' },
   { label: 'Experience', id: 'experience' },
@@ -62,7 +62,7 @@ export default function Nav() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="font-['Playfair_Display'] text-xl md:text-2xl font-semibold tracking-tight text-[#f5f3ef] hover:text-[#c9a96e] transition-colors duration-300"
           >
-            Jatin<span className="text-[#c9a96e]">.</span>
+            Jatin Agarwal<span className="text-[#c9a96e]">.</span>
           </button>
           <div className="hidden md:flex items-center gap-8">
             {desktopLinks.map((l) => (
@@ -114,7 +114,7 @@ export default function Nav() {
             >
               <div className="flex items-center justify-between px-6 h-16 border-b border-white/5">
                 <span className="font-['Playfair_Display'] text-xl font-semibold tracking-tight">
-                  Jatin<span className="text-[#c9a96e]">.</span>
+                    Jatin Agarwal<span className="text-[#c9a96e]">.</span>
                 </span>
                 <button
                   onClick={() => setOpen(false)}
